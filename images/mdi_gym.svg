@@ -1,0 +1,10 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mdi:gym">
+<path id="Vector" d="M30.855 22.29L33 20.145L30.855 18L25.5 23.355L12.645 10.5L18 5.145L15.855 3L13.71 5.145L11.565 3L8.355 6.21L6.21 4.065L4.065 6.21L6.21 8.355L3 11.565L5.145 13.71L3 15.855L5.145 18L10.5 12.645L23.355 25.5L18 30.855L20.145 33L22.29 30.855L24.435 33L27.645 29.79L29.79 31.935L31.935 29.79L29.79 27.645L33 24.435L30.855 22.29Z" fill="url(#paint0_linear_1_1126)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_1126" x1="18" y1="3" x2="18" y2="33" gradientUnits="userSpaceOnUse">
+<stop stop-color="#02F102"/>
+</linearGradient>
+</defs>
+</svg>

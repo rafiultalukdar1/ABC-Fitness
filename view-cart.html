@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- Meta setup -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="">
+        <meta name="decription" content="">
+        <!-- Title -->
+        <title>About Us</title>
+        <!-- Fav Icon -->
+        <link rel="icon" href="images/favicon.ico">
+        <!-- Include Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- fontawsome css file  -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- slider css file  -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <!-- Main StyleSheet -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+													<p class="browserupgrade">You are using an 
+														<strong>outdated</strong> browser. Please 
+														<a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.
+													</p>
+													<![endif]-->
+        <!-- header area start hare  -->
+        <header class="site-header">
+            <!-- navbar style start hare  -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">LOGO</a>
+                    <button class="navbar-toggler-btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM3 7C3 7.55 3.45 8 4 8H20C20.55 8 21 7.55 21 7C21 6.45 20.55 6 20 6H4C3.45 6 3 6.45 3 7Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div class="offcanvas offcanvas-start ms-auto" tabindex="-1" id="offcanvasNav">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title">LOGO</h5>
+                            <button type="button" class="nav-btn-close" data-bs-dismiss="offcanvas">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body ms-lg-auto me-lg-5">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-lg-none mt-3">
+                                <button class="action-btn bg-color-secondery">Login</button>
+                                <button class="cart-btn">
+                                    <img src="images/solar_cart-outline.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-flex gap-2">
+                        <button class="action-btn bg-color-secondery">Login</button>
+                        <button class="cart-btn">
+                            <img src="images/solar_cart-outline.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- site header end hare  -->
+        <!-- view cart hero start hare  -->
+        <section class="view-cart-hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-title text-center w-100 d-flex align-items-center justify-content-center">
+                        <h2>Your Cart</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home hero section end hare  -->
+        <!-- cart shapping section start hare  -->
+        <section class="shopping-cart-section">
+            <div class="container">
+                <div class="shopping-card-wrapper">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="shapping-card">
+                                <div class="back-shopping-btn">
+                                    <button>
+                                        <i class="fa-solid fa-chevron-left"></i> continue your <span>shopping</span>
+                                    </button>
+                                </div>
+                                <div class="card-details">
+                                    <h2>Shopping cart</h2>
+                                    <p>You have 3 item in your cart</p>
+                                </div>
+                                <div class="cart-items-wrapper">
+                                    <!-- items 1  -->
+                                    <div class="signle-cart-items">
+                                        <div class="cart-items-left d-flex align-items-start">
+                                            <div class="product-img">
+                                                <img src="images/product-thmb3.png" alt="">
+                                            </div>
+                                            <div class="cart-product-info">
+                                                <h4>Gym Bottle</h4>
+                                                <div class="product-size d-flex align-items-center gap-2">
+                                                    <p>Size:</p>
+                                                    <span>14 Inches</span>
+                                                </div>
+                                                <div class="product-color d-flex align-items-center gap-2">
+                                                    <p>Color:</p>
+                                                    <span>Black</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-qty">
+                                            <div class="quantity-container">
+                                                <button class="qty-btn decrease">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </button>
+                                                <input type="text"class="qty-input qty" value="1" readonly>
+                                                <button class="qty-btn increase" >
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="price-and-delete">
+                                            <div class="cart-price">
+                                                <h4>$81</h4>
+                                            </div>
+                                            <div class="delete-btn">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                                        <path d="M14 42C12.9 42 11.9587 41.6087 11.176 40.826C10.3933 40.0433 10.0013 39.1013 10 38V12C9.43334 12 8.95867 11.808 8.57601 11.424C8.19334 11.04 8.00134 10.5653 8.00001 10C7.99867 9.43467 8.19067 8.96 8.57601 8.576C8.96134 8.192 9.43601 8 10 8H18C18 7.43333 18.192 6.95867 18.576 6.576C18.96 6.19333 19.4347 6.00133 20 6H28C28.5667 6 29.042 6.192 29.426 6.576C29.81 6.96 30.0013 7.43467 30 8H38C38.5667 8 39.042 8.192 39.426 8.576C39.81 8.96 40.0013 9.43467 40 10C39.9987 10.5653 39.8067 11.0407 39.424 11.426C39.0413 11.8113 38.5667 12.0027 38 12V38C38 39.1 37.6087 40.042 36.826 40.826C36.0433 41.61 35.1013 42.0013 34 42H14ZM34 12H14V38H34V12ZM20 34C20.5667 34 21.042 33.808 21.426 33.424C21.81 33.04 22.0013 32.5653 22 32V18C22 17.4333 21.808 16.9587 21.424 16.576C21.04 16.1933 20.5653 16.0013 20 16C19.4347 15.9987 18.96 16.1907 18.576 16.576C18.192 16.9613 18 17.436 18 18V32C18 32.5667 18.192 33.042 18.576 33.426C18.96 33.81 19.4347 34.0013 20 34ZM28 34C28.5667 34 29.042 33.808 29.426 33.424C29.81 33.04 30.0013 32.5653 30 32V18C30 17.4333 29.808 16.9587 29.424 16.576C29.04 16.1933 28.5653 16.0013 28 16C27.4347 15.9987 26.96 16.1907 26.576 16.576C26.192 16.9613 26 17.436 26 18V32C26 32.5667 26.192 33.042 26.576 33.426C26.96 33.81 27.4347 34.0013 28 34Z" fill="#41F541" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- items 2  -->
+                                    <div class="signle-cart-items">
+                                        <div class="cart-items-left d-flex align-items-start">
+                                            <div class="product-img">
+                                                <img src="images/product-thmb1.png" alt="">
+                                            </div>
+                                            <div class="cart-product-info">
+                                                <h4>Ladies Gym Shirt</h4>
+                                                <div class="product-size d-flex align-items-center gap-2">
+                                                    <p>Size:</p>
+                                                    <span>Large</span>
+                                                </div>
+                                                <div class="product-color d-flex align-items-center gap-2">
+                                                    <p>Color:</p>
+                                                    <span>Black</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-qty">
+                                            <div class="quantity-container">
+                                                <button class="qty-btn decrease">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </button>
+                                                <input type="text"class="qty-input qty" value="1" readonly>
+                                                <button class="qty-btn increase" >
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="price-and-delete">
+                                            <div class="cart-price">
+                                                <h4>$60</h4>
+                                            </div>
+                                            <div class="delete-btn">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                                        <path d="M14 42C12.9 42 11.9587 41.6087 11.176 40.826C10.3933 40.0433 10.0013 39.1013 10 38V12C9.43334 12 8.95867 11.808 8.57601 11.424C8.19334 11.04 8.00134 10.5653 8.00001 10C7.99867 9.43467 8.19067 8.96 8.57601 8.576C8.96134 8.192 9.43601 8 10 8H18C18 7.43333 18.192 6.95867 18.576 6.576C18.96 6.19333 19.4347 6.00133 20 6H28C28.5667 6 29.042 6.192 29.426 6.576C29.81 6.96 30.0013 7.43467 30 8H38C38.5667 8 39.042 8.192 39.426 8.576C39.81 8.96 40.0013 9.43467 40 10C39.9987 10.5653 39.8067 11.0407 39.424 11.426C39.0413 11.8113 38.5667 12.0027 38 12V38C38 39.1 37.6087 40.042 36.826 40.826C36.0433 41.61 35.1013 42.0013 34 42H14ZM34 12H14V38H34V12ZM20 34C20.5667 34 21.042 33.808 21.426 33.424C21.81 33.04 22.0013 32.5653 22 32V18C22 17.4333 21.808 16.9587 21.424 16.576C21.04 16.1933 20.5653 16.0013 20 16C19.4347 15.9987 18.96 16.1907 18.576 16.576C18.192 16.9613 18 17.436 18 18V32C18 32.5667 18.192 33.042 18.576 33.426C18.96 33.81 19.4347 34.0013 20 34ZM28 34C28.5667 34 29.042 33.808 29.426 33.424C29.81 33.04 30.0013 32.5653 30 32V18C30 17.4333 29.808 16.9587 29.424 16.576C29.04 16.1933 28.5653 16.0013 28 16C27.4347 15.9987 26.96 16.1907 26.576 16.576C26.192 16.9613 26 17.436 26 18V32C26 32.5667 26.192 33.042 26.576 33.426C26.96 33.81 27.4347 34.0013 28 34Z" fill="#41F541" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- items 3  -->
+                                    <div class="signle-cart-items">
+                                        <div class="cart-items-left d-flex align-items-start">
+                                            <div class="product-img">
+                                                <img src="images/product-thmb4.png" alt="">
+                                            </div>
+                                            <div class="cart-product-info">
+                                                <h4>Gym Exercise Mat</h4>
+                                                <div class="product-size d-flex align-items-center gap-2">
+                                                    <p>Size:</p>
+                                                    <span>70 Inches</span>
+                                                </div>
+                                                <div class="product-color d-flex align-items-center gap-2">
+                                                    <p>Color:</p>
+                                                    <span>Black</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-qty">
+                                            <div class="quantity-container">
+                                                <button class="qty-btn decrease">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                </button>
+                                                <input type="text"class="qty-input qty" value="1" readonly>
+                                                <button class="qty-btn increase" >
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="price-and-delete">
+                                            <div class="cart-price">
+                                                <h4>$90</h4>
+                                            </div>
+                                            <div class="delete-btn">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                                        <path d="M14 42C12.9 42 11.9587 41.6087 11.176 40.826C10.3933 40.0433 10.0013 39.1013 10 38V12C9.43334 12 8.95867 11.808 8.57601 11.424C8.19334 11.04 8.00134 10.5653 8.00001 10C7.99867 9.43467 8.19067 8.96 8.57601 8.576C8.96134 8.192 9.43601 8 10 8H18C18 7.43333 18.192 6.95867 18.576 6.576C18.96 6.19333 19.4347 6.00133 20 6H28C28.5667 6 29.042 6.192 29.426 6.576C29.81 6.96 30.0013 7.43467 30 8H38C38.5667 8 39.042 8.192 39.426 8.576C39.81 8.96 40.0013 9.43467 40 10C39.9987 10.5653 39.8067 11.0407 39.424 11.426C39.0413 11.8113 38.5667 12.0027 38 12V38C38 39.1 37.6087 40.042 36.826 40.826C36.0433 41.61 35.1013 42.0013 34 42H14ZM34 12H14V38H34V12ZM20 34C20.5667 34 21.042 33.808 21.426 33.424C21.81 33.04 22.0013 32.5653 22 32V18C22 17.4333 21.808 16.9587 21.424 16.576C21.04 16.1933 20.5653 16.0013 20 16C19.4347 15.9987 18.96 16.1907 18.576 16.576C18.192 16.9613 18 17.436 18 18V32C18 32.5667 18.192 33.042 18.576 33.426C18.96 33.81 19.4347 34.0013 20 34ZM28 34C28.5667 34 29.042 33.808 29.426 33.424C29.81 33.04 30.0013 32.5653 30 32V18C30 17.4333 29.808 16.9587 29.424 16.576C29.04 16.1933 28.5653 16.0013 28 16C27.4347 15.9987 26.96 16.1907 26.576 16.576C26.192 16.9613 26 17.436 26 18V32C26 32.5667 26.192 33.042 26.576 33.426C26.96 33.81 27.4347 34.0013 28 34Z" fill="#41F541" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-4 mt-lg-0 mt-md-5">
+                            <div class="checkout-wrapper">
+                                <div class="pay-card-details d-flex align-items-center justify-content-between">
+                                    <h4>Card Details</h4>
+                                    <div class="card-owner-img">
+                                        <img src="images/card-owner.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-type">
+                                    <p>Card type</p>
+                                    <ul>
+                                        <li>
+                                            <button>
+                                                <img src="images/master-card.svg" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button>
+                                                <img src="images/visa-card.svg" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button>
+                                                <img src="images/rupay-card.svg" alt="">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="see-all-btn">
+                                                <span>See all</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-info-form">
+                                    <form action="">
+                                        <div class="signle-input">
+                                            <label for="name_card">Name on card</label>
+                                            <input type="text" placeholder="Name" id="name_card">
+                                        </div>
+                                        <div class="signle-input">
+                                            <label for="card_number">Card Number</label>
+                                            <input type="text" placeholder="1111 2222 3333 4444" id="card_number">
+                                        </div>
+                                        <div class="group-input">
+                                            <div class="signle-input">
+                                                <label for="expiration-date">Expiration date</label>
+                                                <input type="text" placeholder="mm/yy" id="expiration-date">
+                                            </div>
+                                            <div class="signle-input">
+                                                <label for="cvv">CVV</label>
+                                                <input type="text" placeholder="123" id="cvv">
+                                            </div>
+                                        </div>
+                                        <div class="billing-summery">
+                                            <h4>Billing Summary</h4>
+                                            <ul>
+                                                <li>
+                                                    <p>Subtotal</p>
+                                                    <span class="value">$1,668</span>
+                                                </li>
+                                                <li>
+                                                    <p>Shipping</p>
+                                                    <span class="value">$4</span>
+                                                </li>
+                                                <li>
+                                                    <p>Total (Tax incl.)</p>
+                                                    <span class="value">$1,672</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="checkout-btn">
+                                            <button type="submit">
+                                                <span class="total-amount">$1,672</span>
+                                                <div class="checkout-text"> Checkout <i class="fa-solid fa-arrow-right-long"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fitness journey section start hare  -->
+        <section class="fitness-journey-section">
+            <div class="container">
+                <div class="fitness-journey-wrapper">
+                    <div class="fitness-journey-content">
+                        <h2>Your <span>fitness journey</span> starts here! </h2>
+                        <p>Search and connect personal trainers who specialized in fitness goals who cares about. From fat burning to strengh training and everything between them.</p>
+                        <div class="sign-up-btn">
+                            <a href="#">Signup now</a>
+                        </div>
+                    </div>
+                    <div class="fitness-journey-img">
+                        <img src="images/fitness-journey-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fitness journey section end hare  -->
+        <!-- site footer start hare  -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-logo">
+                        <a href="#">LOGO</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-6 mt-5 mt-lg-0 order-2 order-lg-1">
+                            <div class="footer-block">
+                                <h4>Quick links</h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contacts</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 order-3 mt-5 mt-lg-0 order-lg-2">
+                            <div class="footer-block">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">Help center</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy and cookies policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">FAQ’s</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Newsletter, terms and conditions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-auto order-1 order-lg-3">
+                            <div class="footer-news-latter">
+                                <h4>Newsletter</h4>
+                                <p>What to now what next for you? Subscribe to our news letter for any update!</p>
+                                <form action="">
+                                    <input type="email">
+                                    <button type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/ri_instagram-fill.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/ic_round-facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/mdi_linkedin.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Main jQuery -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <!-- Bootstrap jQuery -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- slider js  -->
+        <script src="js/swiper-bundle.min.js"></script>
+        <!-- Custom jQuery -->
+        <script src="js/scripts.js"></script>
+        <!-- Scroll-Top button -->
+        <a href="#" class="scrolltotop" style="display: none;">
+            <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+            <span class="pluse"></span>
+            <span class="pluse2"></span>
+        </a>
+    </body>
+</html>

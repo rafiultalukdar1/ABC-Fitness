@@ -1,0 +1,1423 @@
+@media screen and (min-width: 1400px) and (max-width: 1669px) {
+    .owl-item.active.center .review-card {
+        gap: 30px;
+    }
+    .owl-item.active.center .client-img {
+        width: 150.94px;
+        height: 150.94px;
+    }
+    .review-card {
+        padding: 30px 35px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .home-hero-section {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .review-card .client-img {
+        width: 140.94px;
+        height: 140.94px;
+    }
+    .owl-item.active.center {
+        transform: scale(1.3);
+    }
+
+    .owl-item.active.center .review-card {
+        padding: 25px 30px;
+    }
+    .owl-item.active.center .client-img {
+        width: 150.94px;
+        height: 150.94px;
+    }
+
+    .about-our-customer {
+        right: -35px;
+    }
+}
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .home-hero-section {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fitness-first-img {
+        max-width: 400px;
+    }
+    .fitness-right-card .left-btm-img {
+        max-width: 170px;
+    }
+
+    .fitness-right-card .fitness-right-cnt {
+        top: 85px;
+    }
+    .fitness-goal-wrapper .section-top h2 {
+        font-size: 34px;
+    }
+
+    .product-thabmail img {
+        height: 160px;
+    }
+    .product-title-price a {
+        font-size: 20px;
+    }
+
+    .product-title-price h2 {
+        font-size: 20px;
+    }
+
+    .member-name-rating h2 {
+        font-size: 18px;
+    }
+    .member-name-rating ul li img {
+        max-width: 18px;
+    }
+
+    /*======= fitness journey section ====== */
+
+    .fitness-journey-content {
+        max-width: 450px;
+    }
+
+    /* footer section  */
+
+    .footer-news-latter form input {
+        width: 180px;
+    }
+    .footer-news-latter form button {
+        width: 120px;
+    }
+
+    .review-card .client-img {
+        width: 140.94px;
+        height: 140.94px;
+    }
+    .owl-item.active.center {
+        transform: scale(1.3);
+    }
+
+    .owl-item.active.center .review-card {
+        padding: 25px 30px;
+    }
+    .owl-item.active.center .client-img {
+        width: 150.94px;
+        height: 150.94px;
+    }
+    .client-review-slider {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+
+    .about-our-customer {
+        right: -20px;
+    }
+
+    .about-gym-card .left-btm-img {
+        position: absolute;
+        left: -11.5%;
+        top: 75.5%;
+    }
+
+    .signle-cart-items {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .home-hero-section {
+        background-position: center;
+        background-size: cover;
+        min-height: 600px;
+    }
+
+    .navbar-toggler-btn svg {
+        width: 40px;
+        height: 40px;
+    }
+    .hero-title h2 {
+        font-size: 35px;
+        max-width: 510px;
+        line-height: 40px;
+    }
+    .hero-wrapper .our-achieve h2 {
+        font-size: 45px;
+    }
+    .home-hero-section::before {
+        display: none;
+    }
+
+    /*=== why choose us ==== */
+
+    .section-top h4 {
+        font-size: 16px;
+    }
+    .section-top h2 {
+        font-size: 35px;
+    }
+    .offering-list {
+        padding-top: 40px;
+    }
+
+    /* fitness goal section  */
+
+    .fitness-goal-section {
+        padding: 40px 0;
+        padding-bottom: 100px;
+    }
+    .fitness-left-card {
+        gap: 20px;
+    }
+    .fitness-right-card {
+        margin: auto;
+    }
+    .fitness-goal-text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    /* explore product section  */
+
+    .product-thabmail img {
+        height: 160px;
+    }
+    .product-title-price a {
+        font-size: 20px;
+    }
+
+    .product-title-price h2 {
+        font-size: 20px;
+    }
+
+    /* exercise section  */
+
+    .exercise-content-card {
+        padding-left: 0;
+        gap: 30px;
+    }
+    .exercise-content-card .section-top h2 {
+        max-width: 556px;
+    }
+
+    .explore-product-section {
+        padding-top: 50px;
+    }
+    .exercise-section {
+        padding: 50px 0;
+    }
+    .category-section {
+        padding-bottom: 50px;
+    }
+
+    /* our expert section  */
+    .our-expert-section {
+        padding: 50px 0;
+    }
+    .our-expert-wrapper {
+        padding-top: 50px;
+    }
+    .member-name-rating h2 {
+        font-size: 18px;
+    }
+    .exper-slider-pagination .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+    }
+    .exper-slider-pagination .swiper-pagination-bullet-active {
+        width: 35px;
+        height: 15px;
+        border-radius: 10px;
+        background: #01f301;
+    }
+    .expert-category h4 {
+        font-size: 18px;
+    }
+
+    /*======= fitness journey section ====== */
+
+    .fitness-journey-content {
+        max-width: 410px;
+        gap: 20px;
+    }
+    .fitness-journey-img img {
+        max-width: 200px;
+        bottom: -50px;
+    }
+    .fitness-journey-section {
+        padding: 50px 0;
+    }
+    .fitness-journey-wrapper {
+        padding: 50px 45px;
+    }
+
+    /* site footer section  */
+    .site-footer {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .footer-social ul {
+        justify-content: center;
+    }
+
+    /*======== contact us page =========== */
+
+    .contact-left-card {
+        max-width: 100%;
+        gap: 40px;
+    }
+    .contact-us-form {
+        padding-top: 20px;
+    }
+
+    .load-more-btn button {
+        height: 50px;
+        font-size: 20px;
+    }
+    .our-product-section {
+        padding-bottom: 0;
+    }
+
+    .review-card .client-img {
+        width: 140.94px;
+        height: 140.94px;
+    }
+    .owl-item.active.center {
+        transform: none;
+    }
+
+    .owl-item.active.center .review-card {
+        padding: 25px 30px;
+    }
+    .owl-item.active.center .client-img {
+        width: 150.94px;
+        height: 150.94px;
+    }
+    .client-review-slider {
+        padding: 40px 20px;
+    }
+    .client-review p {
+        font-size: 16px;
+    }
+    .client-slider-btn button {
+        border: none;
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .checkout-wrapper {
+        max-width: 100%;
+    }
+    .card-details h2 {
+        font-size: 25px;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .home-hero-section {
+        background-position: center;
+        background-size: cover;
+        min-height: 450px;
+        padding-top: 55px;
+    }
+    .home-hero-section::before {
+        display: none;
+    }
+    .navbar-toggler-btn svg {
+        width: 40px;
+        height: 40px;
+    }
+    .hero-title h2 {
+        font-size: 30px;
+        max-width: 510px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .hero-wrapper .our-achieve h2 {
+        font-size: 30px;
+    }
+    .hero-title h2 span {
+        color: #fff;
+    }
+    .hero-wrapper {
+        gap: 20px;
+        align-items: center;
+    }
+    .hero-wrapper .our-achieve p {
+        font-size: 15px;
+    }
+    .hero-action-btn {
+        padding: 10px 23px;
+        font-size: 16px;
+    }
+
+    .navbar-brand,
+    .offcanvas-title {
+        font-size: 30px;
+    }
+    .site-header {
+        padding: 10px 0;
+    }
+
+    /*=== why choose us ==== */
+
+    .section-top h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .section-top h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .offering-list {
+        padding-top: 40px;
+    }
+    .why-choose-us {
+        padding: 40px 0;
+    }
+    .offer-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .offering-info h4 {
+        font-size: 20px;
+    }
+    .offer-card {
+        gap: 10px;
+    }
+
+    /* fitness goal section  */
+
+    .fitness-goal-section {
+        padding: 30px 0;
+        padding-bottom: 75px;
+    }
+    .fitness-left-card {
+        gap: 15px;
+        align-items: center;
+    }
+    .fitness-right-card {
+        margin: auto;
+    }
+    .fitness-goal-text p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .fitness-first-img {
+        max-width: 400px;
+    }
+    .fitness-right-card .left-btm-img {
+        left: -11%;
+        top: 70%;
+        max-width: 140px;
+    }
+
+    .fitness-right-card .fitness-right-cnt {
+        right: -15px;
+        top: 90%;
+        gap: 10px;
+        min-width: 150px;
+    }
+    .fitness-info h4 {
+        font-size: 12px;
+    }
+    .fitness-info h2 {
+        font-size: 14px;
+    }
+    .fitness-info p {
+        font-size: 12px;
+    }
+    .fitness-right-cnt img {
+        max-width: 50px;
+    }
+    .explore-btn {
+        padding: 10px 25px;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    /* explore product section responive  */
+
+    .slider-btn {
+        display: block;
+        top: 25%;
+    }
+
+    .product-thabmail img {
+        height: 160px;
+    }
+    .product-title-price a {
+        font-size: 20px;
+    }
+
+    .product-title-price h2 {
+        font-size: 20px;
+    }
+    .custom-progressbar {
+        margin-top: 30px;
+    }
+
+    .explore-product-box {
+        position: relative;
+    }
+
+    .custom-progressbar {
+        display: none;
+    }
+    .explore-product-section {
+        padding-top: 40px;
+        border: none;
+        padding-bottom: 30px;
+    }
+
+    /* exercise section  */
+
+    .exercise-content-card {
+        padding-left: 0;
+        gap: 20px;
+        text-align: center;
+    }
+    .exercise-content-card .section-top h2 {
+        max-width: 480px;
+    }
+    .exercise-section {
+        padding: 40px 0;
+    }
+    .exercise-content-card p {
+        font-size: 17px;
+    }
+    .exercise-content-card h4 {
+        font-size: 20px;
+    }
+
+    .category-section {
+        padding-bottom: 40px;
+    }
+    .category-info a {
+        font-size: 22px;
+    }
+    .category-list {
+        padding-top: 20px;
+    }
+
+    /* our expert section  */
+    .our-expert-section {
+        padding: 40px 0;
+    }
+    .our-expert-wrapper {
+        padding-top: 40px;
+    }
+    .member-name-rating h2 {
+        font-size: 18px;
+    }
+    .exper-slider-pagination .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+    }
+    .exper-slider-pagination .swiper-pagination-bullet-active {
+        width: 35px;
+        height: 15px;
+        border-radius: 10px;
+        background: #01f301;
+    }
+    .expert-category h4 {
+        font-size: 18px;
+    }
+
+    /*======= fitness journey section ====== */
+
+    .fitness-journey-content {
+        max-width: 410px;
+        gap: 20px;
+    }
+    .fitness-journey-img img {
+        max-width: 200px;
+        bottom: -35px;
+    }
+    .fitness-journey-section {
+        padding: 40px 0;
+    }
+    .fitness-journey-wrapper {
+        padding: 35px 30px;
+        background: url(../images/fitness-journey-bg-m.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .fitness-journey-content p {
+        max-width: 310px;
+    }
+    .fitness-journey-wrapper h2 {
+        font-size: 26px;
+    }
+    .sign-up-btn a {
+        padding: 15px 40px;
+    }
+
+    /* site footer section  */
+    .site-footer {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .footer-social ul {
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .footer-wrapper .row {
+        padding-top: 30px;
+    }
+    .footer-news-latter h4 {
+        font-size: 20px;
+    }
+    .footer-block h4 {
+        font-size: 18px;
+    }
+    .footer-block ul li a {
+        font-size: 15px;
+    }
+    .footer-block ul {
+        gap: 10px;
+    }
+
+    /*======== contact us page =========== */
+
+    .contact-left-card {
+        max-width: 100%;
+        gap: 30px;
+    }
+    .contact-us-form {
+        padding-top: 20px;
+    }
+    .contact-main-wrapper {
+        padding: 40px 0;
+    }
+    .contact-left-card p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .follow-us {
+        gap: 25px;
+    }
+    .follow-us .social-icons {
+        width: 60px;
+        height: 60px;
+    }
+    .social-icons svg {
+        max-width: 30px;
+    }
+    .contact-us-form form .submit-btn {
+        height: 55px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .our-map h4 {
+        font-size: 22px;
+    }
+    .get-in-touch-card {
+        border: none;
+        padding: 0;
+    }
+
+    .product-top p {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .our-product-section {
+        padding: 25px 0;
+        padding-bottom: 0;
+    }
+
+    .client-review-section {
+        padding: 40px 0;
+    }
+    .review-card .client-img {
+        width: 140.94px;
+        height: 140.94px;
+    }
+    .owl-item.active.center {
+        transform: none;
+    }
+
+    .owl-item.active.center .review-card {
+        padding: 25px 30px;
+    }
+    .owl-item.active.center .client-img {
+        width: 150.94px;
+        height: 150.94px;
+    }
+    .client-review-slider {
+        padding: 40px 20px;
+    }
+    .client-review p {
+        font-size: 16px;
+    }
+    .client-slider-btn button {
+        border: none;
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .community-hero {
+        min-height: 220px;
+        padding-top: 20px;
+    }
+
+    .community-involvement {
+        padding: 40px 0;
+    }
+    .community-involvement-wrapper h2 {
+        font-size: 22px;
+    }
+    .community-card h4 {
+        font-size: 20px;
+    }
+
+    .community-card {
+        padding: 25px 30px;
+        gap: 18px;
+    }
+    .community-card p {
+        font-size: 15px;
+    }
+    .event-section {
+        padding: 40px 0;
+        padding-bottom: 20px;
+    }
+    .event-content h2 {
+        font-size: 22px;
+    }
+    .event-content p {
+        font-size: 15px;
+    }
+    .event-content {
+        gap: 20px;
+    }
+
+    .about-gym-card .fitness-right-cnt {
+        right: unset;
+        top: 26%;
+        left: -77px;
+    }
+
+    .about-us-trainer .mamber-info .member-name-rating {
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    .about-us-section .fitness-goal-text p {
+        font-size: 16px;
+    }
+
+    .about-us-hero {
+        min-height: 250px;
+        padding-top: 25px;
+    }
+
+    .checkout-wrapper {
+        max-width: 100%;
+    }
+    .card-details h2 {
+        font-size: 20px;
+    }
+    .card-details p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .cart-product-info h4 {
+        font-size: 18px;
+    }
+    .cart-items-left .product-img {
+        width: 100px;
+        height: 80px;
+    }
+    .pay-card-details h4 {
+        font-size: 18px;
+    }
+    .delete-btn button svg {
+        width: 35px;
+    }
+    .shopping-cart-section {
+        padding: 40px 0;
+    }
+
+    .gallery-hero {
+        min-height: 270px;
+    }
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+    .home-hero-section {
+        background-position: center;
+        background-size: cover;
+        min-height: 303px;
+        padding-top: 40px;
+    }
+
+    .navbar-toggler-btn svg {
+        width: 24px;
+        height: 24px;
+    }
+    .hero-title h2 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        width: 288px;
+        font-weight: 500;
+    }
+    .hero-wrapper .our-achieve h2 {
+        font-size: 16px;
+    }
+    .hero-title h2 span {
+        color: #fff;
+    }
+    .hero-wrapper {
+        gap: 15px;
+        align-items: center;
+    }
+    .hero-wrapper .our-achieve p {
+        font-size: 12px;
+    }
+    .hero-action-btn {
+        padding: 10px 23px;
+        font-size: 14px;
+    }
+
+    .navbar-brand,
+    .offcanvas-title {
+        font-size: 20px;
+    }
+    .site-header {
+        padding: 0;
+    }
+
+    .home-hero-section::before {
+        display: none;
+    }
+    .hero-wrapper .our-achieve {
+        padding-top: 10px;
+        display: flex;
+        gap: 40px;
+    }
+
+    /*=== why choose us ==== */
+
+    .section-top h4 {
+        font-size: 10px;
+        text-align: center;
+    }
+    .section-top h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .offering-list {
+        padding-top: 20px;
+    }
+    .why-choose-us {
+        padding: 20px 0;
+    }
+    .offer-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .offering-info h4 {
+        font-size: 18px;
+    }
+    .offer-card {
+        gap: 10px;
+    }
+    .offering-info p {
+        font-size: 12px;
+    }
+
+    .offer-card .explore-more {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .action-btn {
+        padding: 12px 35px;
+        font-size: 16px;
+    }
+    .cart-btn {
+        padding: 7px;
+    }
+
+    /* fitness goal section  */
+
+    .fitness-goal-section {
+        padding: 20px 0;
+        padding-bottom: 60px;
+    }
+    .fitness-left-card {
+        gap: 15px;
+        align-items: center;
+    }
+    .fitness-right-card {
+        margin: auto;
+    }
+    .fitness-goal-text p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .fitness-first-img {
+        max-width: 282px;
+    }
+    .fitness-right-card .left-btm-img {
+        left: -13%;
+        top: 71%;
+        max-width: 102px;
+    }
+
+    .fitness-right-card .fitness-right-cnt {
+        right: -15px;
+        top: 90%;
+        gap: 5px;
+        min-width: 110px;
+    }
+    .fitness-info h4 {
+        font-size: 8px;
+    }
+    .fitness-info h2 {
+        font-size: 10px;
+    }
+    .fitness-info p {
+        font-size: 8px;
+    }
+    .fitness-right-cnt img {
+        max-width: 38px;
+    }
+    .explore-btn {
+        padding: 10px 25px;
+        gap: 15px;
+        font-size: 14px;
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .fitness-goal-wrapper .section-top h2 {
+        max-width: 300px;
+    }
+
+    /* explore product section responive  */
+
+    .slider-btn {
+        display: block;
+        top: 25%;
+    }
+
+    .product-thabmail img {
+        height: 140px;
+    }
+    .product-title-price a {
+        font-size: 14px;
+    }
+
+    .product-title-price h2 {
+        font-size: 14px;
+    }
+    .custom-progressbar {
+        margin-top: 30px;
+    }
+
+    .explore-product-box {
+        position: relative;
+    }
+
+    .custom-progressbar {
+        display: none;
+    }
+    .explore-product-section {
+        padding-top: 40px;
+        border: none;
+        padding-bottom: 30px;
+    }
+    .product-details p {
+        font-size: 10px;
+    }
+    .product-details {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .product-rating li img {
+        width: 14px;
+    }
+    .product-rating p {
+        font-size: 10px;
+    }
+    .product-info {
+        padding: 10px 0;
+    }
+
+    /* exercise section  */
+
+    .exercise-content-card {
+        padding-left: 0;
+        gap: 13px;
+        text-align: center;
+    }
+    .exercise-content-card .section-top h2 {
+        max-width: 310px;
+        margin: 0 auto;
+    }
+    .exercise-section {
+        padding: 35px 0;
+        padding-top: 0;
+    }
+    .exercise-content-card p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .exercise-content-card h4 {
+        font-size: 16px;
+    }
+    .section-top h2 span {
+        color: var(--primery-color);
+        background: linear-gradient(90deg, #01e001 56.5%, #017a01 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .category-section {
+        padding-bottom: 30px;
+    }
+    .category-list {
+        padding-top: 12px;
+    }
+    .category-info a {
+        font-size: 18px;
+    }
+
+    /* our expert section  */
+    .our-expert-section {
+        padding: 28px 0;
+    }
+    .our-expert-wrapper {
+        padding-top: 20px;
+    }
+    .member-name-rating h2 {
+        font-size: 12px;
+    }
+    .exper-slider-pagination .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+    }
+    .exper-slider-pagination .swiper-pagination-bullet-active {
+        width: 35px;
+        height: 15px;
+        border-radius: 10px;
+        background: #01f301;
+    }
+    .expert-category h4 {
+        font-size: 10px;
+    }
+
+    .member-img .expert-category {
+        height: 22px;
+    }
+
+    .member-name-rating ul li img {
+        max-width: 13px;
+    }
+    .mamber-info p {
+        font-size: 10px;
+        padding-top: 6px;
+    }
+    .our-expert-card {
+        gap: 6px;
+    }
+    .exper-slider-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    /*======= fitness journey section ====== */
+
+    .fitness-journey-content {
+        max-width: 280px;
+        gap: 15px;
+    }
+    .fitness-journey-img img {
+        max-width: 170px;
+        bottom: -26px;
+    }
+    .fitness-journey-section {
+        padding: 30px 0;
+    }
+    .fitness-journey-wrapper {
+        padding: 26px 23px;
+        background: url(../images/fitness-journey-bg-m.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .fitness-journey-content p {
+        max-width: 171px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .fitness-journey-wrapper h2 {
+        font-size: 18px;
+    }
+    .sign-up-btn a {
+        padding: 15px 40px;
+        font-size: 12px;
+    }
+
+    /* site footer section  */
+    .site-footer {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .footer-social ul {
+        justify-content: center;
+        padding-top: 20px;
+        gap: 10px;
+    }
+    .footer-wrapper .row {
+        padding-top: 0;
+    }
+    .footer-news-latter h4 {
+        font-size: 16px;
+    }
+    .footer-block h4 {
+        font-size: 14px;
+    }
+    .footer-block ul li a {
+        font-size: 12px;
+    }
+    .footer-block ul {
+        gap: 10px;
+    }
+    .footer-logo {
+        display: none;
+    }
+    .footer-news-latter form {
+        gap: 14px;
+        flex-direction: column;
+    }
+    .footer-news-latter form input {
+        width: 100%;
+        height: 36px;
+        padding: 0 10px;
+    }
+    .footer-news-latter form button {
+        width: 100%;
+        padding: 10px 40px;
+        font-size: 12px;
+    }
+    .footer-social a img {
+        max-width: 26px;
+    }
+    .footer-news-latter p {
+        font-size: 12px;
+    }
+
+    /*======== contact us page =========== */
+
+    .contact-left-card {
+        max-width: 100%;
+        gap: 17px;
+    }
+    .contact-us-form {
+        padding-top: 0;
+    }
+    .contact-main-wrapper {
+        padding: 26px 0;
+    }
+    .contact-left-card p {
+        font-size: 12px;
+        text-align: center;
+        font-weight: 300;
+    }
+    .follow-us {
+        gap: 25px;
+    }
+    .follow-us .social-icons {
+        width: 60px;
+        height: 60px;
+    }
+    .social-icons svg {
+        max-width: 30px;
+    }
+    .contact-us-form form .submit-btn {
+        height: 55px;
+        font-size: 16px;
+        margin-top: 15px;
+        background: #000;
+    }
+    .our-map h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .get-in-touch-card {
+        border: none;
+        padding: 0;
+    }
+    .contact-us-hero-section {
+        min-height: 185px;
+        padding-top: 0;
+    }
+    .contact-left-card h2 {
+        font-size: 16px;
+    }
+
+    .our-content-info .contact-info-icon {
+        width: 39px;
+        height: 39px;
+    }
+    .contact-info-cnt h4 {
+        font-size: 16px;
+    }
+    .contact-info-cnt span,
+    .contact-info-cnt a {
+        font-size: 12px;
+    }
+    .our-content-info ul li {
+        gap: 18px;
+    }
+    .group-input {
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .signle-input input,
+    .signle-input textarea {
+        height: 42px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .signle-input textarea {
+        height: 94px;
+    }
+    .our-product-section {
+        padding: 25px 0;
+        padding-bottom: 0;
+    }
+
+    .client-review-section {
+        padding: 30px 0;
+        padding-bottom: 10px;
+    }
+    .review-card .client-img {
+        width: 104.94px;
+        height: 104.94px;
+    }
+    .owl-item.active.center {
+        transform: none;
+    }
+    .client-review-slider {
+        padding: 40px 20px;
+    }
+    .client-slider-btn button {
+        border: none;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .community-hero {
+        min-height: 168px;
+        padding-top: 20px;
+        background: linear-gradient(88deg, rgba(60, 98, 7, 0.7) 52.68%, rgba(0, 0, 0, 0.63) 102.44%), url(../images/community-hero-bg.png) lightgray 50% / cover no-repeat;
+    }
+    .review-card {
+        gap: 39px;
+        padding: 25px 21px;
+        min-height: auto;
+    }
+    .client-review ul {
+        margin: 10px 0;
+    }
+    .client-review hr {
+        margin: 10px 0;
+    }
+
+    .client-review p {
+        font-size: 10px;
+    }
+    .client-review h2 {
+        font-size: 14.926px;
+    }
+
+    .community-involvement {
+        padding: 25px 0;
+    }
+    .community-involvement-wrapper h2 {
+        font-size: 16px;
+    }
+    .community-card h4 {
+        font-size: 14px;
+    }
+
+    .community-card {
+        padding: 15px;
+        gap: 10px;
+    }
+    .community-card p {
+        font-size: 12px;
+    }
+    .event-section {
+        padding: 25px 0;
+        padding-bottom: 0;
+    }
+    .event-content h2 {
+        font-size: 16px;
+    }
+    .event-content p {
+        font-size: 12px;
+    }
+    .event-content {
+        gap: 10px;
+    }
+    .review-card {
+        box-shadow: 0px 14.954px 15.861px 0px rgba(46, 33, 61, 0.08);
+    }
+
+    .about-gym-card .fitness-right-cnt {
+        right: unset;
+        top: 26%;
+        left: -40px;
+    }
+
+    .about-us-trainer .mamber-info .member-name-rating {
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        flex-direction: column;
+    }
+    .about-gym-card .left-btm-img {
+        position: absolute;
+        left: -7%;
+        top: 76%;
+        max-width: 106px;
+    }
+
+    .about-our-customer li img {
+        max-width: 26px;
+    }
+    .about-our-customer h4 {
+        font-size: 10px;
+    }
+    .about-our-customer {
+        right: -32px;
+        top: 50%;
+        max-width: 100px;
+    }
+    .about-gym-card .fitness-first-img {
+        max-width: 291px;
+    }
+    .about-us-section .fitness-goal-text p {
+        font-size: 12px;
+    }
+    .about-us-hero {
+        min-height: 168px;
+        padding-top: 15px;
+    }
+
+    .checkout-wrapper {
+        max-width: 100%;
+        padding: 10px;
+    }
+    .card-details h2 {
+        font-size: 14px;
+    }
+    .card-details p {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .cart-product-info h4 {
+        font-size: 16px;
+    }
+    .cart-items-left .product-img {
+        width: 67px;
+        height: 78px;
+    }
+    .pay-card-details h4 {
+        font-size: 16px;
+    }
+    .delete-btn button svg {
+        width: 25px;
+    }
+    .shopping-cart-section {
+        padding: 20px 0;
+    }
+    .view-cart-hero {
+        min-height: 168px;
+        padding-top: 10px;
+    }
+    .back-shopping-btn button {
+        font-size: 16px;
+    }
+    .back-shopping-btn {
+        padding-bottom: 15px;
+    }
+    .cart-product-info p {
+        font-size: 12px;
+    }
+    .cart-product-info span {
+        font-size: 12px;
+    }
+
+    .quantity-container {
+        gap: 5px;
+        padding: 10px 12px;
+    }
+    .qty-input {
+        width: 20px;
+        font-size: 12px;
+    }
+    .qty-btn i {
+        font-size: 14px;
+    }
+    .price-and-delete .cart-price h4 {
+        font-size: 14px;
+    }
+    .signle-cart-items {
+        display: flex;
+        gap: 15px;
+    }
+    .cart-items-left {
+        gap: 10px;
+    }
+    .card-type ul li button {
+        width: 60px;
+        height: 40px;
+    }
+    .checkout-btn button {
+        height: 40px;
+        padding: 10px 15px;
+    }
+    .pay-card-details .card-owner-img img {
+        max-width: 46px;
+    }
+
+    .gallery-hero {
+        min-height: 168px;
+    }
+}
