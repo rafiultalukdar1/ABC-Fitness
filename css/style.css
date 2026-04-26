@@ -120,6 +120,10 @@ img {
     margin-top: -4px;
 }
 
+.scrolltotop i {
+    font-size: 18px;
+}
+
 @keyframes lab_top_up {
     0% {
         transform: translateY(-15px);
@@ -255,17 +259,18 @@ img {
 .navbar-nav .nav-link {
     color: #fff;
     font-family: var(--font-inter);
+    font-weight: 600;
 }
+
+.navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
     color: var(--primery-color);
-    font-weight: 700;
 }
-.navbar-nav .nav-link:hover {
-    color: var(--primery-color);
-}
+
 .navbar-nav {
     gap: 20px;
 }
+
 .navbar-toggler-btn {
     background: transparent;
     border: none;
@@ -284,7 +289,7 @@ img {
 /*===== hero section style start hare ===== */
 
 .home-hero-section {
-    min-height: 765px;
+    min-height: 800px;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0) -47.85%, rgba(65, 108, 5, 0.5) 88.69%), url(../images/home-hero-bg.png) lightgray 0px -74.132px / 100% 117.165% no-repeat;
     padding-top: 113px;
     display: flex;
@@ -948,9 +953,10 @@ img {
 .footer-logo a {
     color: #fff;
     font-family: var(--font-inter);
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .footer-wrapper .row {
@@ -1817,9 +1823,11 @@ COMMUNITY PAGE STYLE START HARE
     background: transparent;
     border: none;
 }
-.delete-btn button:hover svg path {
+.delete-btn button svg {
+    max-width: 40px;
+}
+.delete-btn button svg path {
     fill: #ff555a;
-    transition: 0.3s;
 }
 .cart-product-info {
     padding-top: 15px;

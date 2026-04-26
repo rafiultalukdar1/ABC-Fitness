@@ -16,7 +16,6 @@
         });
 
         // expert slider js
-
         const experSlider = new Swiper(".our-expert-slider", {
             loop: false,
             pagination: {
@@ -40,7 +39,6 @@
         });
 
         //   our product slider js start hare
-
         var swiperff = new Swiper(".product-m-slider", {
             slidesPerView: 2,
             grid: {
@@ -55,7 +53,6 @@
         });
 
         // product qty btn js
-
         $(".increase").click(function () {
             var $qtyInput = $(this).closest(".quantity-container").find(".qty");
             var qty = parseInt($qtyInput.val());
@@ -70,10 +67,10 @@
             }
         });
     });
+
 })(jQuery);
 
 // explore product slider
-
 const swiper = new Swiper(".product-slider", {
     loop: false,
     navigation: {

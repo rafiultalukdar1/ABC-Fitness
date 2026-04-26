@@ -774,7 +774,7 @@ Xtra Small Screen - Small Mobile
     .home-hero-section {
         background-position: center;
         background-size: cover;
-        min-height: 303px;
+        min-height: 340px;
         padding-top: 40px;
     }
 
@@ -1181,7 +1181,7 @@ Xtra Small Screen - Small Mobile
         padding: 0;
     }
     .contact-us-hero-section {
-        min-height: 185px;
+        min-height: 210px;
         padding-top: 0;
     }
     .contact-left-card h2 {
@@ -1336,7 +1336,7 @@ Xtra Small Screen - Small Mobile
         font-size: 12px;
     }
     .about-us-hero {
-        min-height: 168px;
+        min-height: 260px;
         padding-top: 15px;
     }
 
