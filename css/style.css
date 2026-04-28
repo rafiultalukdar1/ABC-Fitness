@@ -267,6 +267,10 @@ img {
     color: var(--primery-color);
 }
 
+.navbar-nav .nav-link.active {
+    color: var(--primery-color);
+}
+
 .navbar-nav {
     gap: 20px;
 }
