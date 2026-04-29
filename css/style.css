@@ -1034,6 +1034,7 @@ img {
     max-width: 100%;
     transition: 0.3s;
 }
+
 .footer-news-latter form button:hover {
     background: var(--second-color);
 }
@@ -1045,11 +1046,14 @@ img {
     gap: 24px;
     justify-content: end;
 }
+
 .footer-social ul li img {
     transition: 0.3s;
 }
+
 .footer-social ul li img:hover {
-    opacity: 0.8;
+    opacity: 0.9;
+    transform: translateY(-5px);
 }
 
 /*===============================
